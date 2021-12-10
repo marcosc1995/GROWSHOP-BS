@@ -19,9 +19,8 @@
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid me-5">
           <a class="navbar-brand" href="#">
-            <img
-              id="logo"
-              class="d-inline-block align-text-center"
+            <img              
+              class="logo d-inline-block align-text-center"
               src="img/logo.png"
               alt=""
             />Grow Shop
@@ -140,8 +139,8 @@
       <!-- PRODUCTOS DESTACADOS START  -->
       <section class="container-fluid mb-5 mx-auto">
         <h2 class="text-center mt-5 mb-5">Productos destacados</h2>
-        <div class="container-fluid d-flex justify-content-center">
-          <div class="card m-2" style="width: 18rem">
+        <div class="container-fluid row d-flex justify-content-center">
+          <div class="card m-2 col-sm-3" style="width: 18rem">
             <img src="img/producto1.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -152,7 +151,7 @@
               <a href="#" class="btn btn-success">Go somewhere</a>
             </div>
           </div>
-          <div class="card m-2" style="width: 18rem">
+          <div class="card m-2 col-sm-3" style="width: 18rem">
             <img src="img/producto5.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -163,7 +162,7 @@
               <a href="#" class="btn btn-success">Go somewhere</a>
             </div>
           </div>
-          <div class="card m-2" style="width: 18rem">
+          <div class="card m-2 col-sm-3" style="width: 18rem">
             <img src="img/producto3.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -174,7 +173,7 @@
               <a href="#" class="btn btn-success">Go somewhere</a>
             </div>
           </div>
-          <div class="card m-2" style="width: 18rem">
+          <div class="card m-2 col-sm-3" style="width: 18rem">
             <img src="img/producto4.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -192,38 +191,41 @@
       <!-- OFERTAS START  -->
       <section class="container-fluid bg-danger d-flex flex-column">
         <h2 class="fs-1 text-white text-center p-2">OFERTAS HASTA 50 % OFF</h2>
-        <button class="mx-auto btn btn-success w-25 mb-3">Ir a la seccion</button>
-        
+        <button class="mx-auto btn btn-success w-25 mb-3">
+          Ir a la seccion
+        </button>
       </section>
       <!-- OFERTAS END  -->
 
       <!-- SECCIONES PRINCIPALES START -->
-      <section class="mt-5 container-fluid d-flex justify-content-center">
-        <div class="card m-2" style="width: 18rem">
+      <section
+        class="row mt-5 mb-5 wp-5 container-fluid d-flex justify-content-center"
+      >
+        <div class="card m-2 col-sm" style="width: 18rem">
           <img src="img/c1.jpg" class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 class="card-title text-center">Card title</h5>
           </div>
         </div>
-        <div class="card m-2" style="width: 18rem">
+        <div class="card m-2 col-sm" style="width: 18rem">
           <img src="img/c2.jpg" class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 class="card-title text-center">Card title</h5>
           </div>
         </div>
-        <div class="card m-2" style="width: 18rem">
-          <img src="img/c7.jpg" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title text-center">Card title</h5>
-          </div>
-        </div>
-        <div class="card m-2" style="width: 18rem">
+        <div class="card m-2 col-sm" style="width: 18rem">
           <img src="img/c4.jpg" class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 class="card-title text-center">Card title</h5>
           </div>
         </div>
-        <div class="card m-2" style="width: 18rem">
+        <div class="card m-2 col-sm" style="width: 18rem">
+          <img src="img/c8.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title text-center">Card title</h5>
+          </div>
+        </div>
+        <div class="card m-2 col-sm" style="width: 18rem">
           <img src="img/c8.jpg" class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 class="card-title text-center">Card title</h5>
@@ -232,6 +234,18 @@
       </section>
       <!-- SECCIONES PRINCIPALES END  -->
     </main>
+    <footer class="p-5 container-fluid row bg-dark text-light">
+      <div class="col-sm-4">
+        <img class="logo"  src="img/logo.png" alt="" />
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam
+          accusantium, alias voluptatem et eius possimus amet aperiam
+          repellendus rerum cum velit facere aspernatur corporis ipsam
+          consectetur ullam odio, cupiditate aliquam!
+        </p>
+      </div>
+      <div class="col-sm-8">medios de contacto</div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
