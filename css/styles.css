@@ -1,3 +1,4 @@
+/* ICONS  */
 .logo {
   width: 80px;
   height: 80px;
@@ -8,3 +9,29 @@
   width: 40px;
   height: 40px;
 }
+/* ICONS END  */
+
+/* BEST PRICE  */
+.bestPrice {
+  position: absolute;
+  top: 10px;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+  animation-name: color;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes color {
+  0% {
+    background-color: red;
+  }
+  100% {
+    background-color: rgb(0, 190, 10);
+  }
+  
+}
+.bestPrice:hover{
+  box-shadow: 2px 2px 2px black;
+}
+/* BEST PRICE END  */
