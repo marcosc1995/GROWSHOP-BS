@@ -50,7 +50,11 @@
                   Categorias
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="../pages/paraferlia.html">Parafernalia</a></li>
+                  <li>
+                    <a class="dropdown-item" href="../pages/paraferlia.html"
+                      >Parafernalia</a
+                    >
+                  </li>
                   <li>
                     <a class="dropdown-item" href="../pages/Insumos.html"
                       >Insumos para el cultivo</a
@@ -63,7 +67,10 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../pages/ofertas.html"
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../pages/ofertas.html"
                   >Ofertas</a
                 >
               </li>
@@ -128,9 +135,13 @@
                 data-bs-parent="#accordionFlushExample"
               >
                 <div class="accordion-body">
-                  Placeholder content for this accordion, which is intended to
-                  demonstrate the <code>.accordion-flush</code> class. This is
-                  the first item's accordion body.
+                  <div class="d-flex flex-column">
+                    <label><input type="checkbox" id="" /> Insumos</label>
+                    <label><input type="checkbox" id="" /> Fertilizantes</label>
+                    <label><input type="checkbox" id="" /> Semillas</label>
+                    <label><input type="checkbox" id="" /> Accesorios</label>
+                    <label><input type="checkbox" id="" /> Varios</label>
+                  </div>
                 </div>
               </div>
             </div>
@@ -154,10 +165,10 @@
                 data-bs-parent="#accordionFlushExample"
               >
                 <div class="accordion-body">
-                  Placeholder content for this accordion, which is intended to
-                  demonstrate the <code>.accordion-flush</code> class. This is
-                  the second item's accordion body. Let's imagine this being
-                  filled with some actual content.
+                  <div>
+                    <input type="text" placeholder="Minimo" name="" id="" />
+                    <input type="text" placeholder="Maximo" name="" id="" />
+                  </div>
                 </div>
               </div>
             </div>
@@ -181,13 +192,15 @@
                 data-bs-parent="#accordionFlushExample"
               >
                 <div class="accordion-body">
-                  Placeholder content for this accordion, which is intended to
-                  demonstrate the <code>.accordion-flush</code> class. This is
-                  the third item's accordion body. Nothing more exciting
-                  happening here in terms of content, but just filling up the
-                  space to make it look, at least at first glance, a bit more
-                  representative of how this would look in a real-world
-                  application.
+                  <div class="d-flex flex-column">
+                    <label
+                      ><input type="checkbox" id="" /> Latitud Sur Seeds</label
+                    >
+                    <label><input type="checkbox" id="" /> R-Kiem Seeds</label>
+                    <label><input type="checkbox" id="" /> Pyramid Seeds</label>
+                    <label><input type="checkbox" id="" /> BSF Seeds</label>
+                    <label><input type="checkbox" id="" /> Otros</label>
+                  </div>
                 </div>
               </div>
             </div>
