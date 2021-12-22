@@ -1,0 +1,81 @@
+/* ICONS  */
+.logo {
+  width: 80px;
+  height: 80px;
+  margin: 0;
+}
+
+.social__icon {
+  width: 40px;
+  height: 40px;
+}
+/* ICONS END  */
+
+/* BEST PRICE  */
+.bestPrice {
+  position: absolute;
+  top: 10px;
+  color: white;
+  // border-radius: 10px;
+  padding: 0 4px;
+  animation-name: color;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  font-size: 10px;
+}
+@keyframes color {
+  0% {
+    background-color: red;
+    border-radius: 10px;
+    right: 0;    
+  }
+  100% {
+    background-color: rgb(0, 190, 10);
+    border-radius: 20px;
+    right: 15px;
+  }
+  
+}
+.bestPrice:hover{
+  box-shadow: 2px 2px 2px black;
+}
+/* BEST PRICE END  */
+
+// PRODUCTO START
+
+.product{
+  background-color: rgb(255, 255, 255);
+  width: 15%;
+  box-shadow: 1px 1px 2px rgb(148, 145, 145);
+  transition-duration: 0.25s;
+  &__price{
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+  
+  }
+  &__pay{
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+  &__ship{
+    font-size: 1rem;
+    color: green;
+    font-weight: 600;
+
+  }
+  &__description{
+    font-size: 1rem;
+    transition-duration: 0.15s;
+  }
+  &__description:hover{
+    font-size: 1.5rem;
+  }
+}
+.product:hover{
+  box-shadow: 4px 4px 6px black;
+}
+
+// PRODUCTO END
