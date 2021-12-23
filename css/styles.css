@@ -143,6 +143,11 @@
   margin: 4px;
 }
 
+.section__products__image:hover {
+  -webkit-box-shadow: 2px 2px 4px black;
+          box-shadow: 2px 2px 4px black;
+}
+
 .section__icon {
   border-radius: 5px;
   border: 1px solid gray;

@@ -104,7 +104,6 @@
   &__products {
     width: 100%;
     height: 100px;
-
     margin-top: 50px;
     &__image {
       border-radius: 5px;
@@ -113,6 +112,9 @@
       height: 80px;
       width: 80px;
       margin: 4px;
+    }
+    &__image:hover{
+      box-shadow: 2px 2px 4px black;
     }
   }
   &__icon {
