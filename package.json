@@ -1,0 +1,22 @@
+{
+  "name": "growshop-bs",
+  "version": "1.0.0",
+  "description": "Grow Shop ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcosc1995/GROWSHOP-BS.git"
+  },
+  "keywords": [
+    "shop"
+  ],
+  "author": "Marcos Caitano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcosc1995/GROWSHOP-BS/issues"
+  },
+  "homepage": "https://github.com/marcosc1995/GROWSHOP-BS#readme"
+}
