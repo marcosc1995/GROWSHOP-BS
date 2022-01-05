@@ -1,13 +1,13 @@
 /* ICONS  */
 .logo {
-  width: 80px;
-  height: 80px;
+  height: 70px;
+  width: 70px;
   margin: 0;
 }
 
 .social__icon {
-  width: 40px;
   height: 40px;
+  width: 40px;
 }
 
 /* ICONS END  */
@@ -136,10 +136,10 @@
 
 .section__products__image {
   border-radius: 5px;
+  border: 1px solid #292929;
+  height: 70px;
+  width: 70px;
   padding: 3px;
-  border: 1px solid gray;
-  height: 80px;
-  width: 80px;
   margin: 4px;
 }
 
@@ -150,9 +150,9 @@
 
 .section__icon {
   border-radius: 5px;
-  border: 1px solid gray;
-  width: 70px;
+  border: 1px solid #292929;
   height: 70px;
+  width: 70px;
   background-color: white;
   position: absolute;
   margin-left: auto;

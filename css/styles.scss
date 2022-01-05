@@ -1,13 +1,38 @@
+// MAPS & VARIABLES
+$img-size: (
+  xs: 40px,
+  sm: 70px,
+  md: 140px,
+  lg: 280px,
+);
+$sm-img: map-get($img-size, sm);
+$xs-img: map-get($img-size, xs);
+
+// MIXINs START
+
+@mixin bordes {
+  border-radius: 5px;
+  border: 1px solid rgb(41, 41, 41);
+}
+@mixin imgSmall {
+  height: $sm-img;
+  width: $sm-img;
+}
+@mixin imgExtraSmall {
+  height: map-get($img-size, xs);
+  width: map-get($img-size, xs);
+}
+
+// MIXINs END
+
 /* ICONS  */
 .logo {
-  width: 80px;
-  height: 80px;
+  @include imgSmall();
   margin: 0;
 }
 
 .social__icon {
-  width: 40px;
-  height: 40px;
+  @include imgExtraSmall();
 }
 /* ICONS END  */
 
@@ -80,10 +105,9 @@
 // SECTION START
 
 .section {
-  // height: 400px;
   position: relative;
   margin: 15px;
-  a{
+  a {
     text-decoration: none;
     color: black;
   }
@@ -106,22 +130,18 @@
     height: 100px;
     margin-top: 50px;
     &__image {
-      border-radius: 5px;
+      @include bordes();
+      @include imgSmall();
       padding: 3px;
-      border: 1px solid gray;
-      height: 80px;
-      width: 80px;
       margin: 4px;
     }
-    &__image:hover{
+    &__image:hover {
       box-shadow: 2px 2px 4px black;
     }
   }
   &__icon {
-    border-radius: 5px;
-    border: 1px solid gray;
-    width: 70px;
-    height: 70px;
+    @include bordes();
+    @include imgSmall();
     background-color: white;
     position: absolute;
     margin-left: auto;
@@ -131,7 +151,7 @@
     right: 0;
   }
 }
-.section:hover{
+.section:hover {
   box-shadow: 2px 2px 4px black;
 }
 
